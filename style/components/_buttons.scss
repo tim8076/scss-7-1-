@@ -1,0 +1,17 @@
+.btn {
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  border: none;
+  background: none;
+  padding: 0.5em 0.75em;
+  border-radius: 0.25rem;
+
+  &-primary {
+    background-color: $color-primary;
+  }
+
+  &-secondary {
+    background-color: $color-secondary;
+  }
+}

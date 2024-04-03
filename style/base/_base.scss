@@ -1,0 +1,25 @@
+body {
+  color: $color-black;
+  font-family: $fm-base;
+  font-size: $fs-base;
+  line-height: 1.5;
+}
+
+a,
+a:visited,
+a:active{
+  color: inherit;
+  /* blue colors for links too */
+  text-decoration: inherit;
+  /* no underline */
+}
+
+img {
+  // The `max-width: 100%;
+  //   ` ensures that the image does not exceed its container's width, 
+  //  * while maintaining its aspect ratio with `height: auto;`.
+  max-width: 100%;
+  height: auto;
+  // The `vertical-align: middle aligns the image vertically with the text.
+  vertical-align: middle;
+}

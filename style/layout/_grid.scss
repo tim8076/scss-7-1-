@@ -1,0 +1,33 @@
+@use "sass:math";
+
+.container {
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+
+  @include mq(sm) {
+    max-width: 540px;
+  }
+
+  @include mq(md) {
+    max-width: 720px;
+  }
+
+  @include mq(lg) {
+    max-width: 960px;
+  }
+
+  @include mq(xl) {
+    max-width: 1140px;
+  }
+}
+
+.container-fluid {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 15px;
+  padding-right: 15px;
+}
