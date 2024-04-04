@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 500;
+  src: url('../../font/squeez/roboto-medium-webfont.woff2') format('woff2'),
+       url('../../font/squeez/roboto-medium-webfont.woff') format('woff')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 300;
+  src: url('../../font/squeez/roboto-light-webfont.woff2') format('woff2'),
+       url('../../font/squeez/roboto-light-webfont.woff2') format('woff')
+}
+
+@font-face {
+  font-family: 'Roboto';
+  font-weight: 900;
+  src: url('../../font/squeez/roboto-black-webfont.woff2') format('woff2'),
+       url('../../font/squeez/roboto-black-webfont.woff') format('woff')
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
